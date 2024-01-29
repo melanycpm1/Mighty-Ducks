@@ -46,17 +46,9 @@
     position: relative;
     top: 100px;
 }
-.sectionDos{
-    position: relative;
-    top: 300px;
-}
-.sectionTres{
-    position: relative;
-    top: 500px;
-}
 .footer{
     position: relative;
-    top: 630px;
+    top: 200px;
     text-align: center;
     padding: 30px;
 }
