@@ -30,7 +30,7 @@
     top: 40px;
     font-size: 3rem;
 }
-.events,.sectionDos,.sectionTres{
+.events{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(1,1fr);
