@@ -27,6 +27,8 @@
     display: flex;
     gap: 15px;
     text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .li_header{
     width: 100px;
@@ -83,6 +85,51 @@
     cursor: pointer;
 }
 .footer{
+    /*text-align: center;
+    margin-bottom: 2%;*/
+    position: absolute;
+    top:1200px;
+    left: 50%;
+}
+.subtituloPolitica{
     text-align: center;
-    margin-bottom: 2%;
+    font-size: .9375rem;
+    font-family: "Oswald", sans-serif;
+}
+.margen{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 15px;
+    position: relative;
+    top: 40px;
+    line-height: 40px
+}
+
+.estiloTable{
+    width: 60%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+}
+
+.estiloTable th,.estiloTable td {
+    padding: 8px;
+    text-align: left;
+}
+.estiloTable th {
+    background-color: #f2f2f2;
+}
+.strong{
+    color: black;
+}
+.ul{
+    text-align: center;
+    margin-top: 70px
+}
+.subtituloInformacion{
+    text-align: center;
 }
