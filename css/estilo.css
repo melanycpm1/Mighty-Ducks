@@ -133,3 +133,41 @@
 .subtituloInformacion{
     text-align: center;
 }
+.cntenedorMapas{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 70px;
+}
+.mapa{
+    width: 80%;
+    height: 150px;
+}
+.formularioDatosPersonales{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);;
+    grid-template-rows: repeat(4,1fr);
+    align-items: center;
+    justify-items: center;
+}
+.form2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    justify-items: center;
+}
+.formulario3{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4,1fr);
+    justify-items: center;
+}
+.parrafo{
+    width: 60%;
+    margin: 0 auto;
+}
+.tituloh2, .subtitulo{
+    margin-left: 5%;
+}
